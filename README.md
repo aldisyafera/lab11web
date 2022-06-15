@@ -104,13 +104,83 @@ File app/view/template/about.php
 
 Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
 
+Membuat Database
 
+![image](https://user-images.githubusercontent.com/103243638/173825083-de514a2b-d74f-46ec-b835-f8126b14d009.png)
 
+Membuat Tabel
 
+![image](https://user-images.githubusercontent.com/103243638/173825157-4a0b159c-1289-4cbc-8a33-b879939e2fb7.png)
 
+Konfigurasi koneksi 
 
+database Selanjutnya membuat konfigurasi untuk menghubungkan dengan database server. Konfigurasi dapat dilakukan dengan du acara, yaitu pada file app/config/database.php atau menggunakan file .env. Pada praktikum ini kita gunakan konfigurasi pada file .env
 
+![image](https://user-images.githubusercontent.com/103243638/173825248-60ef4762-6d04-4321-9d1c-ff217b8d2777.png)
 
+Membuat Model 
+
+Selanjutnya adalah membuat Model untuk memproses data Artikel. Buat file baru pada direktori app/Models dengan nama ArtikelModel.php
+
+![image](https://user-images.githubusercontent.com/103243638/173825319-9ef58efb-f8ef-4ede-ac1d-2096a0d49e94.png)
+
+Membuat Controller 
+
+Buat Controller baru dengan nama Artikel.php pada direktori app/Controllers.
+
+![image](https://user-images.githubusercontent.com/103243638/173825427-98564568-20b3-410c-9160-5147c58b6e5d.png)
+
+Membuat View
+
+ Buat direktori baru dengan nama artikel pada direktori app/views, kemudian buat file baru dengan nama index.php.
+
+![image](https://user-images.githubusercontent.com/103243638/173825529-a55dad17-16a4-4c6e-b2b2-02c143627062.png)
+
+•	Selanjutnya buka browser kembali, dengan mengakses url http://localhost:8080/artikel
+
+![image](https://user-images.githubusercontent.com/103243638/173825584-7a79fca5-27d2-41b5-b44d-551845ab8a33.png)
+
+![image](https://user-images.githubusercontent.com/103243638/173825690-2eaa7849-7f56-4d05-8fca-eae75470a6b3.png)
+
+Membuat Menu Admin
+
+Menu admin adalah untuk proses CRUD data artikel. Buat method baru pada Controller Artikel dengan nama admin_index().
+
+![image](https://user-images.githubusercontent.com/103243638/173825789-2da71877-54b0-4ada-a4c2-ba55c8c9eb78.png)
+
+Selanjutnya buat view untuk tampilan admin dengan nama admin_index.php
+
+![image](https://user-images.githubusercontent.com/103243638/173825883-8264a3f5-ba49-41d9-81ea-930819d1274b.png)
+
+![image](https://user-images.githubusercontent.com/103243638/173825931-fc7f0aa4-e98a-4e87-a104-510e051ea1fd.png)
+
+Tambahkan routing untuk menu admin seperti berikut:
+
+![image](https://user-images.githubusercontent.com/103243638/173826031-eff6c1ef-9271-461b-8a83-1a46d01f0950.png)
+
+Akses menu admin dengan url http://localhost:8080/admin/artikel
+
+![image](https://user-images.githubusercontent.com/103243638/173826156-48eb11e4-33bb-494a-9747-92cb11d88a69.png)
+
+Menambah Data Artikel 
+
+Tambahkan fungsi/method baru pada Controller Artikel dengan nama add().
+
+![image](https://user-images.githubusercontent.com/103243638/173826328-04d7e555-a458-48a2-bbe8-974ec90edc15.png)
+
+Mengubah Data 
+
+Tambahkan fungsi/method baru pada Controller Artikel dengan nama edit().
+
+![image](https://user-images.githubusercontent.com/103243638/173826465-9c40a4b5-0b67-481f-a03e-56130a259e38.png)
+
+![image](https://user-images.githubusercontent.com/103243638/173826483-aa0d4d93-c60d-4f7b-aa5c-2a8c763c39d7.png)
+
+Menghapus Data 
+
+Tambahkan fungsi/method baru pada Controller Artikel dengan nama delete()
+
+![image](https://user-images.githubusercontent.com/103243638/173826568-63d24b6a-99e4-4f40-b6d1-a1972ac29df7.png)
 
 
 
