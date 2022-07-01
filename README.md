@@ -145,11 +145,11 @@ Membuat View
 Membuat Menu Admin
 
 Menu admin adalah untuk proses CRUD data artikel. Buat method baru pada Controller Artikel dengan nama admin_index().
-
+![image](https://user-images.githubusercontent.com/103243638/173825690-2eaa7849-7f56-4d05-8fca-eae75470a6b3.png)
 ![image](https://user-images.githubusercontent.com/103243638/173825789-2da71877-54b0-4ada-a4c2-ba55c8c9eb78.png)
 
 Selanjutnya buat view untuk tampilan admin dengan nama admin_index.php
-
+![image](https://user-images.githubusercontent.com/103243638/173825789-2da71877-54b0-4ada-a4c2-ba55c8c9eb78.png)
 ![image](https://user-images.githubusercontent.com/103243638/173825883-8264a3f5-ba49-41d9-81ea-930819d1274b.png)
 
 ![image](https://user-images.githubusercontent.com/103243638/173825931-fc7f0aa4-e98a-4e87-a104-510e051ea1fd.png)
@@ -238,13 +238,6 @@ Menambahkan fungsi unggah gambar pada tambah artikel. Buka kembali Controller
 Artikel, sesuaikan kode pada method add seperti berikut:
 
 ![image](https://user-images.githubusercontent.com/103243638/176439437-033d660c-3133-4204-955e-c534b81c89a0.png)
-
-
-Upload Gambar
-Menambahkan fungsi unggah gambar pada tambah artikel. Buka kembali Controller
-Artikel, sesuaikan kode pada method add seperti berikut:
-
-![image](https://user-images.githubusercontent.com/103243638/176439946-958530e0-1e0e-430a-b602-5bfb57923170.png)
 
 
 Kemudian pada file views/artikel/form_add.php tambahkan field input file seperti
